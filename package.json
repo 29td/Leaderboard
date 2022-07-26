@@ -1,0 +1,35 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "description": "In this activity I will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules.",
+  "private": "true",
+  "mode": "development",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/29td/Leaderboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/29td/Leaderboard/issues"
+  },
+  "homepage": "https://github.com/29td/Leaderboard#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "csv-loader": "^3.0.5",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
