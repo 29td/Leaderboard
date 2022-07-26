@@ -1,0 +1,128 @@
+* {
+    font-family: "Josefin Sans", sans-serif;
+  }
+    
+  h1 {
+    font-size: 40px;
+    color: #191826;
+  }
+  
+  .head-section {
+    display: flex;
+  }
+  
+  .h3 {
+    font-size: 25px;
+    width: 170px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #191826;
+  }
+    
+  .refresh-btn {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    /* color: #fff; */
+    /* background: #fa7453; */
+    font-size: 15px;
+  }
+    
+  table {
+    margin-left: 50px;
+    font-size: 18px;
+    display: flex;
+    border-collapse: collapse;
+    background-color: #fff;
+    width: 35vw;
+    height: fit-content;
+  }
+  
+  th,
+  td {
+    padding: 10px 15px;
+    text-align: left;
+    color: #fff;
+  }
+  
+  th {
+    /* background-color: #191826; */
+    color: #000;
+  }
+  
+  .add-score h3 {
+    font-size: 25px;
+    width: 170px;
+    margin-top: -160px;
+    margin-left: 450px;
+    color: #191826;
+  }
+
+  
+  #add-score {
+    margin-left: 400px;
+    margin-top: 40px;
+    width: 30vw;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .fieldset {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fieldset input {
+    width: 80%;
+    padding: 16px;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 5px;
+    outline: 0;
+  }
+  
+  .alert {
+    font-size: 13px;
+    padding: 13px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  .alert.success {
+    background-color: #7dd2c5;
+  }
+  
+  .alert.invalid {
+    background-color: rgb(220, 55, 55);
+    color: #fff;
+  }
+  
+  .btn-add-score {
+    width: 35%;
+    font-size: 18px;
+    margin-left: 220px;
+    /* color: #fff;
+    background: #fa7453; */
+    padding: 10px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .footer-section {
+    margin-top: 210px;
+    height: 50px;
+    background-color: gray;
+  }

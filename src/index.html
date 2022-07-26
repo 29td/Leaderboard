@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans" rel="stylesheet"/>
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Leaderboard</title>
+</head>
+<body>
+    <header>
+        <h1>Leaderboard <i class="bi bi-calendar3"></i></h1>
+    </header>
+    <section>
+        <div class="head-section">
+            <h3 class="h3">Recent Scores</h3>
+            <button type="submit" class="refresh-btn">Refresh</button>
+        </div>
+        <table class="scores-container">
+            <thead class="table-heading">
+              <tr>
+                <th>Name</th>
+                <th>Score</th>
+              </tr>
+              <tr>
+                <th>Name</th>
+                <th>Score</th>
+              </tr>
+              <tr>
+                <th>Name</th>
+                <th>Score</th>
+              </tr>
+            </thead>
+            <tbody class="score-list">
+                <!-- Added dynamically from JS -->
+            </tbody>
+          </table>
+        <div class="add-score">
+            <h3>Add your score <i class="bi bi-calendar2-event"></i></h3>
+            <form action="#" id="add-score">
+                <div class="fieldset">
+                  <input type="text" id="player-name" placeholder="Your Name"/>
+                </div>
+                <div class="fieldset">
+                  <input type="text" id="player-score" placeholder="Your Score"/>
+                </div>
+                <button type="submit" class="btn-add-score">Submit</button>
+              </form>
+        </div>
+    </section>
+<footer class="footer-section"></footer>
+</body>
+</html>
