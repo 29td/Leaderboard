@@ -36,17 +36,18 @@ h1 {
 table {
   margin-left: 50px;
   font-size: 18px;
-  display: flex;
   border-collapse: collapse;
   background-color: #fff;
   width: 35vw;
+
+  /* height: fit-content; */
 }
 
 th,
 td {
   padding: 10px 15px;
   text-align: left;
-  color: #fff;
+  color: #000;
 }
 
 th {
@@ -57,14 +58,14 @@ th {
 .add-score h3 {
   font-size: 25px;
   width: 170px;
-  margin-top: -160px;
-  margin-left: 450px;
+  margin-top: -400px;
+  margin-left: 560px;
   color: #191826;
 }
 
 #add-score {
-  margin-left: 400px;
-  margin-top: 40px;
+  margin-left: 530px;
+  margin-top: 10px;
   width: 30vw;
   font-size: 18px;
   display: flex;

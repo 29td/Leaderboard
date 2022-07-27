@@ -1,5 +1,6 @@
 /* eslint-disable  import/prefer-default-export */
 
+import './style.css';
 import displayScores from './displayScores.js';
 import  submitScore from './submit.js';
 
