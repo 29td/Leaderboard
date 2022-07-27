@@ -40,9 +40,18 @@ table {
   font-size: 18px;
   border-collapse: collapse;
   background-color: #fff;
-  width: 35vw;
+  width: 25vw;
 
   /* height: fit-content; */
+}
+
+thead {
+  display: flex;
+}
+
+tbody {
+  display: flex;
+  flex-direction: column;
 }
 
 th,
@@ -59,7 +68,7 @@ th {
 .add-score h3 {
   font-size: 25px;
   width: 170px;
-  margin-top: -400px;
+  margin-top: -470px;
   margin-left: 560px;
   color: #191826;
 }
@@ -124,7 +133,7 @@ button:hover {
 }
 
 .footer-section {
-  margin-top: 210px;
+  margin-top: 310px;
   height: 50px;
   background-color: gray;
 }
