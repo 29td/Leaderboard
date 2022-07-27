@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "In this activity I will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules.",
   "private": "true",
+  "type": "module",
   "mode": "development",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
