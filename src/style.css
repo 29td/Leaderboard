@@ -2,6 +2,10 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+body {
+  background-color: aquamarine;
+}
+
 h1 {
   font-size: 40px;
   color: #191826;
@@ -26,10 +30,8 @@ h1 {
   border: 0;
   border-radius: 5px;
   cursor: pointer;
-
-  /* color: #fff; */
-
-  /* background: #fa7453; */
+  color: #fff;
+  background: #fa7453;
   font-size: 15px;
 }
 
@@ -38,9 +40,18 @@ table {
   font-size: 18px;
   border-collapse: collapse;
   background-color: #fff;
-  width: 35vw;
+  width: 25vw;
 
   /* height: fit-content; */
+}
+
+thead {
+  display: flex;
+}
+
+tbody {
+  display: flex;
+  flex-direction: column;
 }
 
 th,
@@ -51,14 +62,13 @@ td {
 }
 
 th {
-  /* background-color: #191826; */
   color: #000;
 }
 
 .add-score h3 {
   font-size: 25px;
   width: 170px;
-  margin-top: -400px;
+  margin-top: -470px;
   margin-left: 560px;
   color: #191826;
 }
@@ -110,9 +120,8 @@ th {
   width: 35%;
   font-size: 18px;
   margin-left: 220px;
-
-  /* color: #fff;
-    background: #fa7453; */
+  color: #fff;
+  background: #fa7453;
   padding: 10px;
   border: 0;
   border-radius: 8px;
@@ -124,7 +133,7 @@ button:hover {
 }
 
 .footer-section {
-  margin-top: 210px;
+  margin-top: 310px;
   height: 50px;
   background-color: gray;
 }
