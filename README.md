@@ -15,7 +15,9 @@ For you to get a local template, please follow the folowing prerequisite steps:
 Access the live source on - [Live Demo](https://github.com/29td/Leaderboard/tree/leaderboard)
 Copy the **https** or **SSH** address on the code
 Clone the repository using your favorite code editor.
-Once you've open the repo on your VScode run it using index.html on src folder.
+Once you've open the repo on your VScode run it using index.html on src folder. Alternatively
+- run npm build to build your webpack.
+- run npm start to to see your live version using webpack
 
 ## Author
 
