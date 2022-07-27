@@ -2,6 +2,10 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+body {
+  background-color: aquamarine;
+}
+
 h1 {
   font-size: 40px;
   color: #191826;
@@ -26,10 +30,8 @@ h1 {
   border: 0;
   border-radius: 5px;
   cursor: pointer;
-
-  /* color: #fff; */
-
-  /* background: #fa7453; */
+  color: #fff;
+  background: #fa7453;
   font-size: 15px;
 }
 
@@ -51,7 +53,6 @@ td {
 }
 
 th {
-  /* background-color: #191826; */
   color: #000;
 }
 
@@ -110,9 +111,8 @@ th {
   width: 35%;
   font-size: 18px;
   margin-left: 220px;
-
-  /* color: #fff;
-    background: #fa7453; */
+  color: #fff;
+  background: #fa7453;
   padding: 10px;
   border: 0;
   border-radius: 8px;
